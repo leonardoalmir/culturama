@@ -14,7 +14,7 @@
 
 @media (min-width: 720px) {
     .banner {
-        /* grid-template-columns: 1fr 0.4fr 0.5fr; */
+        grid-template-columns: calc(50% - 0.75rem) auto auto;
         column-gap: 1.5rem;
     }
 
