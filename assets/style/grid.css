@@ -1,3 +1,4 @@
+/* Banner */
 .banner {
     display: grid;
     gap: 1rem;
@@ -11,6 +12,8 @@
     grid-column: 2/3;
     grid-row: 2/4;
 }
+
+/* Eventos */
 
 .eventos__item {
     display: grid;
@@ -44,6 +47,28 @@
 
 .eventos__item button {
     grid-area: botao;
+}
+
+/* Agenda */
+
+.agenda__item {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+        "imagem imagem"
+        "data nomeBotao";
+}
+
+.agenda__item img {
+    grid-area: imagem;
+}
+
+.agenda__informacoes {
+    grid-area: data;
+}
+
+.agenda__atracao {
+    grid-area: nomeBotao;
 }
 
 @media (min-width: 720px) {
