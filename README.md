@@ -1,4 +1,4 @@
-# culturama
+# Culturama
 Treinando Grid e Flex em um projeto bacana!
 
 Neste projeto enriqueci meu conhecimento nas duas principais maneiras de dispor elementos em uma página HTML + CSS, utilizando o Flexbox e o Grid. Desenvolvi esses conceitos utilizando mobile first, praticando em um projeto chamado Culturama, uma página para divulgação de eventos culturais.
