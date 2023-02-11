@@ -48,8 +48,24 @@
 
     .agenda__item {
         flex-grow: 1;
-        
     }
+
+/* Rodapé */
+    .rodape {
+        display: flex;
+        flex-wrap: wrap;
+        /* 
+        Neste caso é melhor usar o space-between, pois o distanciamento entre elementos vai ser dinâmico, de acordo com a largura da tela.
+        column-gap: 2rem;
+        row-gap: 1rem; 
+        */
+        justify-content: space-between;
+    }
+
+    .rodape__logo {
+        align-self: flex-end;
+    }
+
 
 @media (min-width: 720px) {
 /* Cabeçalho */
